@@ -79,10 +79,38 @@ nav li {
 
 
 
-  main {
-    min-height: 400px; 
-  padding: 20px;
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
   }
+  
+  .product {
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+  }
+  
+  .price {
+    color: #1B5E59;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  
 
   .footer-item {
      font-size: 16px;
