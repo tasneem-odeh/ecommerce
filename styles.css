@@ -15,7 +15,7 @@ header {
   }
 
   header h1 {
-    font-size: 30px;
+    font-size: 30px; 
     font-weight: bold;
     font-family: 'Raleway';
     text-shadow: 2px 2px 4px rgb(48, 47, 47);
@@ -51,6 +51,8 @@ header {
   }
 
   
+
+  
 .colortag{
    background-color:  #FFC6C6;
 }
@@ -61,6 +63,8 @@ header {
 .hoverr:hover {
     background-color: #1B3C53;
   }
+   
+
 
 nav ul {
   list-style: none;
@@ -81,9 +85,21 @@ nav li {
 
 .products {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px; 
     padding: 20px;
+  }
+
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .products {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .products {
+      grid-template-columns: repeat(4, 1fr); 
+    }
   }
   
   .product {
