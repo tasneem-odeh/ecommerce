@@ -114,6 +114,9 @@ nav li {
     object-fit: cover;
     border-radius: 6px;
   }
+
+ 
+  
   
   figcaption {
     margin-top: 8px;
@@ -126,7 +129,20 @@ nav li {
     margin-top: 5px;
   }
 
-  
+  .product-details {
+    flex: 2;
+    padding: 20px;
+  }
+
+  .product-image {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .product-image img {
+    width: 100%;
+    border-radius: 10px;
+  } 
 
   .footer-item {
      font-size: 16px;
