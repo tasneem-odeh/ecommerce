@@ -3,6 +3,7 @@ header {
     justify-content: space-between; 
     align-items: center;
     padding: 10px 10px;
+    
   }
   
   
@@ -10,8 +11,11 @@ header {
     background-color: #E5BEB5 ;
   }
   .colortext{
-    color:#F9F5F0;
+    color: #1B3C53;
+  }
 
+  .colortitel{
+    color:#F9F5F0;
   }
 
   header h1 {
@@ -54,6 +58,8 @@ header {
   
 .colortag{
    background-color:  #FFC6C6;
+   
+   
 }
 
 
@@ -61,6 +67,7 @@ header {
 
 .hoverr:hover {
     background-color: #1B3C53;
+    color: #F9F5F0;
   }
    
 
