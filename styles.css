@@ -48,22 +48,28 @@ header {
   header button {
     padding: 6px 12px;
     border: 1px solid #ccc;
-    font-size: 16px;
+    font-size: 11px;
     cursor: pointer;
   
   }
-
+  .product-info .buttons button {
+    padding: 10px 20px;   
+    font-size: 18px;       
+  }
+  .product-info .buttons {
+    display: flex;
+    gap: 10px;  
+   
+  }
+  
   
 
-  
 .colortag{
    background-color:  #FFC6C6;
    
    
 }
 
-
-  
 
 .hoverr:hover {
     background-color: #1B3C53;
@@ -136,11 +142,17 @@ nav li {
   }
 
  
-
+  .product-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
 
   .product-image  img{
-    width: 100%;
-    object-fit: cover;     
+    width: auto;
+    height: 50%;
   border-radius: 10px;
   } 
 
